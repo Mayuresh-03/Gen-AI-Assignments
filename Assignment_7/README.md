@@ -29,9 +29,7 @@ python main.py
 
 The script will open the specified image, send it to the Gemini model, and print a professional caption generated from the visual features.
 
-## Example Output
-
-Assuming `sample_image.png` contains a scenic beach at sunset with a few people walking by the shoreline, the output might look like:
+## Output
 
 ```
 --- Generated Caption ---
@@ -44,5 +42,6 @@ A glowing futuristic metropolis at night, with towering skyscrapers illuminated 
 
 - Ensure your `sample_image.png` is a valid JPEG or PNG file; the script currently sets the MIME type to `image/jpeg` when sending bytes.
 - Handle API errors graciously—see the `try/except` block in `main.py` for an example.
+
 
 Feel free to extend this project by adding command-line arguments, supporting more image formats, or integrating the caption into a web application.
