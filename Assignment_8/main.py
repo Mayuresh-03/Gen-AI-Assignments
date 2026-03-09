@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 
 # 1. Initialize Client (ensure your key is valid)
-client = genai.Client(api_key="AIzaSyCLdXcSVYbm9rs9COt6SenMBd8yjqtK6aw")
+client = genai.Client(api_key="YOUR_GEMINI_API_KEY")
 def save_as_wav(filename, pcm_data):
     """Saves raw 24kHz 16-bit Mono PCM data into a WAV file."""
     with wave.open(filename, "wb") as wf:
@@ -48,4 +48,5 @@ def generate_speech(text):
         print(f"Error: {e}")
 
 if __name__ == "__main__":
+
     generate_speech("Welcome to the 2026 AI Summit, where we explore the future of human-machine collaboration! Speak with the infectious energy of a professional radio host.")
