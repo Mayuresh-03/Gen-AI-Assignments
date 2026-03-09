@@ -75,4 +75,3 @@ enhanced by the model.
 
 ---
 
-Generated for the Gen AI course, Semester 2 of Third Year 2025–26.
